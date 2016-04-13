@@ -2,7 +2,7 @@ FROM hypriot/rpi-java
 MAINTAINER Sébastien Gruchet <gruchet@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV ZOOKEEPER_VERSION 3.4.7
+ENV ZOOKEEPER_VERSION 3.4.8
 
 RUN apt-get update && apt-get install -y curl python
 
